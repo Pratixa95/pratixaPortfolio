@@ -20,10 +20,10 @@ const App = () => {
         <div className="col-md-6 mb-4 mb-md-0">
           <p className="mainTxt">Hello, I'm Pratixa Joshi</p> <br />
           <p className="lead">
-            I am a Full Stack Web Developer and Web Designer. An Open Source enthusiast and a Bachelor of Computer Application graduate from India.
+            I am a Full Stack Web Developer and recent practitioner with hands-on experience building full-stack web projects. An Open Source enthusiast and a Bachelor of Computer Application graduate from India. 
           </p> <br />
           <p className='sublead'>
-            I've worked with startups as a core developer and delivered custom freelance projects. Passionate about learning new technologies and solving problems through code.
+           I'm eager to contribute to real-world projects, learn from experienced developers, and grow in a collaborative environment. Passionate about learning new technologies and solving problems through code.
           </p>
         </div>
         <div className="col-md-6 text-center">
@@ -80,17 +80,17 @@ const App = () => {
             <tr>
               <td>HTML5</td>
               <td>JavaScript</td>
+              <td>CSS3</td>
+            </tr>
+            <tr>
+              <td>Bootstrap5</td>
+              <td>React.js</td>
               <td>Python</td>
             </tr>
             <tr>
-              <td>CSS3</td>
-              <td>Git</td>
-              <td>React.js</td>
-            </tr>
-            <tr>
+              <td>Django</td>
               <td>MySQL</td>
-              <td>Bootstrap</td>
-              <td>Express.js</td>
+              <td>GitHub</td>
             </tr>
           </tbody>
         </table>
@@ -180,10 +180,10 @@ const App = () => {
       </div>
       </div> 
       </section> */}
-    <section id="contact" className="contact-section py-5">
+    <section id="contact" className="contact-section ">
   <div className="container text-white">
     {/* Title */}
-    <div className="row">
+    <div className="row contactRow">
       <div className="col-12 text-center mb-4">
         <h2 className="contactTxt">Let's Connect</h2>
       </div>
