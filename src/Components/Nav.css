@@ -1,0 +1,33 @@
+ /* .navDiv
+ {
+    height: auto;
+    width: 100%;
+ }
+ .nav-item
+ {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+} */
+
+.navDiv {
+  width: 100%;
+  padding: 0; /* Remove inner padding */
+  margin: 0;  /* Remove margin */
+}
+
+.navbar {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-nav .nav-item {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.navbar img {
+  height: 70px;
+}
