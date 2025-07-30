@@ -2,6 +2,7 @@
 
 import React from 'react';
 import './Nav.css';
+import logo from '../assets/PortfolioImg/logo.png';
 
 const Nav = () => {
   return (
@@ -9,7 +10,7 @@ const Nav = () => {
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
           <img
-            src="src/assets/PortfolioImg/name_img3.png"
+            src={logo}
             alt="Logo"
             className="img-fluid"
           />

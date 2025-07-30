@@ -2,6 +2,13 @@
 import React from 'react';
 import Nav from './Components/Nav';
 import './App.css';
+import logo from './assets/PortfolioImg/logo.png';
+import profileImg from './assets/PortfolioImg/pratixa_image.png';
+import projectImg from './assets/PortfolioImg/project.png';
+import mailIcon from './assets/PortfolioImg/mail_icon.png';
+import phoneIcon from './assets/PortfolioImg/phone_icon.png';
+
+
 
 const App = () => {
   return (
@@ -21,7 +28,7 @@ const App = () => {
         </div>
         <div className="col-md-6 text-center">
           <img
-            src="src/assets/PortfolioImg/pratixa_image.png"
+            src={profileImg}
             alt="Pratixa Joshi"
             className="img-fluid"
             style={{ height: '300px', width: '300px' }}
@@ -34,12 +41,6 @@ const App = () => {
       {/* Skills Section */}
       <section id="skills" className="">
         <div className="bg-light txtDiv">
-          {/* <img
-            src="src/assets/PortfolioImg/skills_image.png"
-            alt="Skills"
-            className="img-fluid"
-            style={{ height: '80px', width: '200px' }}
-          /> */}
           <p className='title'><u>Skills</u></p>
         </div>
 
@@ -104,7 +105,7 @@ const App = () => {
       <div className="col-12 col-md-10">
         <div className="card bg-warning shadow-lg">
           <img
-            src="src/assets/PortfolioImg/project.png"
+            src={projectImg}
             alt="Project"
             className="img-fluid card-img-top"
             style={{height: 'auto', maxHeight: '500px' }}
@@ -165,14 +166,14 @@ const App = () => {
         <div className="row m-0 p-0 text-center d-flex justify-content-center align-items-center">
         <div className="col-12 col-md-6 col-lg-4">
         <div className="card border-0 text-white d-flex flex-column align-items-center justify-content-center eventFooter1">
-        <img src="src/assets/PortfolioImg/mail_icon.png" style={{ height: '30px', width: '30px' }} alt="email" />
+        <img src={mailIcon} style={{ height: '30px', width: '30px' }} alt="email" />
         <p className="mt-2 mb-1">mahetapratixa7695@gmail.com</p>
         </div>
         </div>
         
         <div className="col-12 col-md-6 col-lg-4">
         <div className="card border-0 text-white d-flex flex-column align-items-center justify-content-center eventFooter2">
-        <img src="src/assets/PortfolioImg/phone_icon.png" style={{ height: '30px', width: '30px' }} alt="phone" />
+        <img src={phoneIcon} style={{ height: '30px', width: '30px' }} alt="phone" />
         <p className="mt-2 mb-1">+91-7574026950</p>
         </div>
         </div>
