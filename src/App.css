@@ -34,12 +34,13 @@
     /* background-color: yellow; */
     font-size: 1.2rem;
 }
-.contactDiv
+/* .contactDiv
 {
     background-color: rgb(3, 3, 70); 
 }
 .eventFooter1, .eventFooter2
 {
+
   font-size: 1.5rem;
   background-color: rgb(3, 3, 70);
 } 
@@ -53,5 +54,41 @@
 @media (max-width: 768px) {
   .contactTxt {
     font-size: 1.5rem;
+  }
+} */
+
+/* Section Background */
+.contact-section {
+  background-color: rgb(3, 3, 70);
+}
+
+/* Contact Text Heading */
+.contactTxt {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: white;
+}
+
+/* Cards Style */
+.contact-card {
+  background-color: rgb(3, 3, 70);
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: scale(1.03);
+}
+
+/* Responsive Font for Heading */
+@media (max-width: 768px) {
+  .contactTxt {
+    font-size: 1.5rem;
+  }
+
+  .contact-card {
+    font-size: 1.2rem;
   }
 }

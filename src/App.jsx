@@ -157,7 +157,7 @@ const App = () => {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="">
+      {/* <section id="contact" className="">
       <div className="container-fluid p-1 text-white contactDiv ">
       
         <div className='col-12 contactTxt'>
@@ -179,7 +179,36 @@ const App = () => {
         </div>
       </div>
       </div> 
-      </section>
+      </section> */}
+    <section id="contact" className="contact-section py-5">
+  <div className="container text-white">
+    {/* Title */}
+    <div className="row">
+      <div className="col-12 text-center mb-4">
+        <h2 className="contactTxt">Let's Connect</h2>
+      </div>
+    </div>
+
+    {/* Contact Cards */}
+    <div className="row justify-content-center text-center">
+      {/* Email */}
+      <div className="col-12 col-sm-8 col-md-6 col-lg-4 mb-4">
+        <div className="card contact-card shadow-sm p-3 h-100 d-flex flex-column justify-content-center align-items-center">
+          <img src={mailIcon} alt="Email" className="mb-2" style={{ height: '30px', width: '30px' }} />
+          <p className="mb-0">mahetapratixa7695@gmail.com</p>
+        </div>
+      </div>
+
+      {/* Phone */}
+      <div className="col-12 col-sm-8 col-md-6 col-lg-4 mb-4">
+        <div className="card contact-card shadow-sm p-3 h-100 d-flex flex-column justify-content-center align-items-center">
+          <img src={phoneIcon} alt="Phone" className="mb-2" style={{ height: '30px', width: '30px' }} />
+          <p className="mb-0">+91-7574026950</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
     </div>
   );
