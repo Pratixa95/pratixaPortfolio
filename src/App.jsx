@@ -1,4 +1,3 @@
-// 
 import React from 'react';
 import Nav from './Components/Nav';
 import './App.css';
@@ -121,21 +120,11 @@ const App = () => {
         </div>
       </div>
     </div>
-  
 </section>
-
-
       {/* Experience Section */}
       <section id="experience" className="">
         <div className="mb-4 bg-light txtDiv">
           <p className='title'><u>Experience</u></p>
-
-          {/* <img
-            src="src/assets/PortfolioImg/experience.png"
-            alt="Experience"
-            className="img-fluid"
-            style={{ height: '80px', width: '300px' }}
-          /> */}
 
         </div>
 
@@ -155,31 +144,6 @@ const App = () => {
           </div>
         </div>
       </section>
-
-      {/* Contact Section */}
-      {/* <section id="contact" className="">
-      <div className="container-fluid p-1 text-white contactDiv ">
-      
-        <div className='col-12 contactTxt'>
-          <p className="text-center">Let's Connect</p>
-        </div>
-        <div className="row m-0 p-0 text-center d-flex justify-content-center align-items-center">
-        <div className="col-12 col-md-6 col-lg-4">
-        <div className="card border-0 text-white d-flex flex-column align-items-center justify-content-center eventFooter1">
-        <img src={mailIcon} style={{ height: '30px', width: '30px' }} alt="email" />
-        <p className="mt-2 mb-1">mahetapratixa7695@gmail.com</p>
-        </div>
-        </div>
-        
-        <div className="col-12 col-md-6 col-lg-4">
-        <div className="card border-0 text-white d-flex flex-column align-items-center justify-content-center eventFooter2">
-        <img src={phoneIcon} style={{ height: '30px', width: '30px' }} alt="phone" />
-        <p className="mt-2 mb-1">+91-7574026950</p>
-        </div>
-        </div>
-      </div>
-      </div> 
-      </section> */}
     <section id="contact" className="contact-section ">
   <div className="container text-white">
     {/* Title */}
@@ -209,8 +173,7 @@ const App = () => {
     </div>
   </div>
 </section>
-
-    </div>
+</div>
   );
 };
 
