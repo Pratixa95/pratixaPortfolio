@@ -1205,8 +1205,13 @@
 
     /* ===== RESPONSIVE — TABLET (≤900px) ===== */
     @media (max-width: 900px) {
-      /* Disable strict snap and fixed height for better flowing content on smaller screens */
-      html { scroll-snap-type: none; overflow-y: auto; }
+      /* Restore native mobile momentum scrolling by removing fixed heights and custom overflows */
+      html, body { 
+        scroll-snap-type: none; 
+        height: auto; 
+        overflow-y: visible; 
+        -webkit-overflow-scrolling: touch; 
+      }
       section { height: auto; min-height: 100vh; scroll-snap-align: none; overflow: visible; padding: 60px 0; }
       
       #navbar { padding:16px 24px; }
