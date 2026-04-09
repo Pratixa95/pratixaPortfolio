@@ -1209,10 +1209,18 @@
       html, body { 
         scroll-snap-type: none; 
         height: auto; 
+        min-height: 100vh;
         overflow-y: visible; 
+        overflow-x: hidden;
+        width: 100vw;
+        max-width: 100vw;
         -webkit-overflow-scrolling: touch; 
       }
-      section { height: auto; min-height: 100vh; scroll-snap-align: none; overflow: visible; padding: 60px 0; }
+      section { 
+        height: auto; min-height: 100vh; scroll-snap-align: none; 
+        overflow: hidden; /* Clips decorative elements (e.g. blobs) that cause horizontal stretching */ 
+        padding: 60px 0; 
+      }
       
       #navbar { padding:16px 24px; }
       .reel-dots, #section-counter { display:none; }
